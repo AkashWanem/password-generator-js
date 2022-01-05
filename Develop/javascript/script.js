@@ -5,8 +5,10 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword() {
 
   //defining variables
-  let 
-
+  let capLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  let smllLetters = 'abcdefghijklmnopqrstuvwxyz';
+  let nums = '0123456789';
+  let specChars = '~!@#$%^&*()_+{}:?><;.,';
 }
 
 // Write password to the #password input
