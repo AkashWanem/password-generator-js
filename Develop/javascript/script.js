@@ -9,6 +9,14 @@ function generatePassword() {
   let smllLetters = 'abcdefghijklmnopqrstuvwxyz';
   let nums = '0123456789';
   let specChars = '~!@#$%^&*()_+{}:?><;.,';
+
+  //check if button is working
+  console.log("the click works");
+
+  // writing prompt for the length of the password
+  let pwLength = prompt('choose a length of at least 8 characters and no more than 128 characters');
+
+
 }
 
 // Write password to the #password input
