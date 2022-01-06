@@ -67,6 +67,14 @@ function generatePassword() {
     return alert('you must pick at least one given criteria!')
   }
 
+  // defines the password with random values from selected criteria, 
+  // and limits the password to chosen number
+  for (let i = 0; i < pwLength; i++) {
+    passwordText += availableChar[Math.floor(Math.random () * availableChar.length)];
+  }
+
+  return passwordText;
+
 }
 
 // Write password to the #password input
