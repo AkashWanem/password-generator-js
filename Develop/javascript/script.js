@@ -35,6 +35,33 @@ function generatePassword() {
     availableChar += capLetters; 
   }
 
+  // determining that user wants small letters or not
+  let nwSmllLetters = confirm('Would you like to use small letters from a-z?')
+
+  if (!smllLetters) {
+    nwSmllLetters = '';
+  } else {
+    availableChar += smllLetters;
+  }
+
+  // determining that user wants numbers or not
+  let nwNums = confirm('Would you like to add numbers from 0-9?');
+
+  if (!nwNums) {
+    nwNums = '';
+  } else {
+    availableChar += nums;
+  }
+
+  // determining that user wants characters or not
+  let nwSpecChars = confirm('Would you like to add characters?')
+
+  if (!nwSpecChars) {
+    nwSpecChars = '';
+  } else {
+    availableChar += specChars;
+  }
+
 }
 
 // Write password to the #password input
