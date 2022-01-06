@@ -62,6 +62,11 @@ function generatePassword() {
     availableChar += specChars;
   }
 
+  // verifying that user accepts at least one criteria
+  if (!nwCapLetters && !nwSmllLetters && !nwNums && !nwSpecChars) {
+    return alert('you must pick at least one given criteria!')
+  }
+
 }
 
 // Write password to the #password input
