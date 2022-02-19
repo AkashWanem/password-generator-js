@@ -24,4 +24,5 @@ But, if the user fails to chose any of the given criteria, the alert message pop
 <img width="626" alt="noresult" src="https://user-images.githubusercontent.com/88898180/148661518-642cb872-beb2-4fc5-99d1-e824167aa825.png">
 
 Link to deployed application: https://akashwanem.github.io/password-generator-js/
+
 Contact me: akashwanem@hotmail.com
